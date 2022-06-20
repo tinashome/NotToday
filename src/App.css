@@ -62,7 +62,7 @@ input:focus {
   position: absolute;
   z-index: -999;
   /* background-image: url(../public/img/Asset\ 1@4x.png); */
-  background-image: url(./img/bg02.jpg);
+  background-image: url("bg02.jpg");
   /* background-image: url(../public/img/water-4029433_1920.jpg); */
   /* background-size: 300px; */
   /* background-size: cover; */
@@ -169,7 +169,7 @@ form {
   height: 40px;
   
 }
-.memo {
+.memo, .doneMemo{
   display: inline-flex;
   width: 100px;
   height: 70px;
@@ -187,6 +187,11 @@ form {
   line-height:30px;
   padding: 10px;  
   overflow: hidden;
+}
+.doneMemo {
+  /* border: #ea4e41 5px solid; */
+  box-shadow: 0 0 0 3px #ea4e41 inset; 
+  
 }
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 /* .wrapper{
