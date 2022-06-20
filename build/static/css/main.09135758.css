@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css2?family=Alegreya:wght@900&Do+Hyeon&family=Jua&family=Nanum+Gothic:wght@700;800&family=Noto+Sans+KR&display=swap);
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+@font-face {
+  font-family: Hana_handwriting;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Hana_handwriting.woff) format("woff")
+}
+
+@font-face {
+  font-family: Dovemayo-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-family: Mingyung;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Mingyung.woff) format("woff")
+}
+
+@font-face {
+  font-family: 양진체;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff) format("woff")
+}
+
+@font-face {
+  font-family: HS-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: NeoDunggeunmo;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff) format("woff")
+}
+
+* {
+  font-family: NeoDunggeunmo, sans-serif;
+  letter-spacing: -1px
+}
+
+-webkit-scrollbar {
+  display: none;
+  width: 0 !important
+}
+
+input:focus {
+  outline: none
+}
+
+.background {
+  align-items: center;
+  background: linear-gradient(to bottom right, #e2d5e7, #f0b6e8);
+  background-image: url(../media/bg02.b2f7ea85cf99fd9e6ac2.jpg);
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  z-index: -999
+}
+
+.container {
+  background-color: #ffeffc;
+  border: 5px solid #ea4e41;
+  border-radius: 20px;
+  height: 70vh;
+  margin: 5vh 0 0 5vw;
+  width: 90vw
+}
+
+.title {
+  color: #ea4e41;
+  display: grid;
+  font-family: Alegreya, sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 20px;
+  text-align: center
+}
+
+.InputBox,
+.submitBtn {
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  text-align: center;
+  transition: all .3s ease
+}
+
+.InputBox {
+  border-radius: 50px 0 0 50px;
+  width: 230px
+}
+
+.submitBtn {
+  background-color: #ea4e41;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  padding-left: 0;
+  width: 40px
+}
+
+.memoContainer {
+  display: inline-block;
+  height: 57vh;
+  position: relative;
+  text-align: left;
+  top: 3vh;
+  width: 84vw
+}
+
+.inputContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8vh
+}
+
+form {
+  display: flex;
+  height: 40px
+}
+
+.doneMemo,
+.memo {
+  background-color: #fff;
+  border: 1px solid rgba(255, 79, 161, .2);
+  border-radius: 2px;
+  box-shadow: 0 2px 5px -1px rgba(106, 36, 82, .883), 0 1px 3px -1px rgba(0, 0, 0, .3);
+  display: inline-flex;
+  font-family: NeoDunggeunmo, sans-serif;
+  font-size: 20px;
+  height: 70px;
+  line-height: 30px;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  width: 100px
+}
+
+.doneMemo {
+  box-shadow: inset 0 0 0 3px #ea4e41
+}
+
+.footer {
+  background-color: #ffeffc;
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%
+}
+
+/*# sourceMappingURL=main.09135758.css.map*/
