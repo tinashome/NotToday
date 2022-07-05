@@ -1,39 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&Do+Hyeon&family=Jua&family=Nanum+Gothic:wght@700;800&family=Noto+Sans+KR&display=swap');
-/* font-family: 'Do Hyeon', sans-serif;
-font-family: 'Jua', sans-serif;
-font-family: 'Nanum Gothic', sans-serif; 
-font-family: 'Noto Sans KR', sans-serif; */
 
-@font-face {
-  font-family: 'Hana_handwriting';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Hana_handwriting.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Dovemayo-Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Mingyung';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Mingyung.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: '양진체';
-  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'HS-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 @font-face {
   font-family: 'NeoDunggeunmo';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
@@ -45,7 +11,8 @@ font-family: 'Noto Sans KR', sans-serif; */
   font-family: 'NeoDunggeunmo', sans-serif;
   letter-spacing: -1px;
 }
--webkit-scrollbar { 
+
+-webkit-scrollbar {
   display: none;
   width: 0 !important;
 }
@@ -55,41 +22,30 @@ input:focus {
 }
 
 .background {
-  /* background: -gradient(to bottom right,#f2668b, #f2bbc5, #f2295f); */
   background: linear-gradient(to bottom right, #e2d5e7, #f0b6e8);
   width: 100vw;
   height: 100vh;
   position: absolute;
   z-index: -999;
-  /* background-image: url(../public/img/Asset\ 1@4x.png); */
-  background-image: url("bg02.jpg");
-  /* background-image: url(../public/img/water-4029433_1920.jpg); */
-  /* background-size: 300px; */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* opacity: 0.5; */
-    text-align: center;
-    align-items: center;
-
-    /* background: linear-gradient(217deg, rgb(255, 79, 161), rgba(255, 0, 0, 0) 70.71%),
-    linear-gradient(127deg, rgba(145, 97, 255, 0.8), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgba(255, 247, 1, 0.8), rgba(0, 0, 255, 0) 70.71%),
-    radial-gradient(circle, rgb(0, 255, 183) 12%, rgb(0, 119, 255) 80%); */
+  background-image: url("../public/img/bg00.jpg");
+  text-align: center;
+  align-items: center;
 }
-.container{
+
+.container {
   /* display: inline-block; */
   /* position: relative; */
   width: 90vw;
   height: 70vh;
-  margin : 5vh 0 0 5vw;
-  background-color: #ffeffc  ;
+  margin: 5vh 0 0 5vw;
+  background-color: #ffeffc;
   /* padding: 100px; */
   border: #ea4e41 5px solid;
   border-radius: 20px;
 }
-.title{
-  display:grid;
-  /* position: absolute; */
+
+.title {
+  display: grid;
   font-size: 40px;
   text-align: center;
   font-family: 'Alegreya', sans-serif;
@@ -100,15 +56,10 @@ input:focus {
 
 .InputBox,
 .submitBtn {
-  /* display: flex; */
   padding-left: 10px;
-  /* height: 30px; */
   border: none;
   font-size: 20px;
   text-align: center;
-
-  /* user-select: none; */
-  /* background-color: rgba(255, 255, 255, 0); */
   transition: all 0.3s ease;
 }
 
@@ -117,99 +68,67 @@ input:focus {
   border-radius: 50px 0 0 50px;
 }
 
-/* .InputBox:hover,
-:focus {
-  background-color: #fff;
-} */
-
 .submitBtn {
   padding-left: 0;
   width: 40px;
   cursor: pointer;
   border-radius: 0 50px 50px 0;
   background-color: #ea4e41;
-  /* padding-top: 2px; */
 }
 
-/* .submitBtn:hover {
-  background-color: #fff;
-} */
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
-.memoContainer{
+.memoContainer {
   display: inline-block;
   position: relative;
   width: 84vw;
   height: 57vh;
-  top:3vh;
+  top: 3vh;
   text-align: left;
-  /* border: #282c34 1px solid; */
-  /* margin-top: -47vh; */
-  /* background-color: rgba(255, 255, 255, 0.6); */
-  /* padding: 5px; */
-  /* flex-direction: column; */
 }
-.inputContainer{
-  /* display: inline-block; */
+
+.inputContainer {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  /* position: relative; */
-  /* width: 84vw; */
-  /* height: 40px; */
-  /* top:3vh; */
-  /* text-align: center; */
-  /* border: #282c34 1px solid; */
-  /* margin-top: -47vh; */
-  /* background-color: rgba(255, 255, 255, 0.6); */
   padding-top: 8vh;
   flex-direction: column;
 }
+
 form {
   display: flex;
   height: 40px;
-  
+
 }
-.memo, .doneMemo{
+
+.memo,
+.doneMemo {
   display: inline-flex;
   width: 100px;
   height: 70px;
-  /* background-color: rgb(255, 216, 245); */
   background-color: #fff;
-  border: 1px solid rgba(255, 79, 161, 0.2) ;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border: 1px solid rgba(255, 79, 161, 0.2);
   box-shadow: rgba(106, 36, 82, 0.883) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   margin: 10px;
   border-radius: 2px;
   font-family: 'NeoDunggeunmo', sans-serif;
-  /* font-weight: 800; */
   font-size: 20px;
   text-align: center;
-  line-height:30px;
-  padding: 10px;  
+  line-height: 30px;
+  padding: 10px;
   overflow: hidden;
 }
+
 .doneMemo {
-  /* border: #ea4e41 5px solid; */
-  box-shadow: 0 0 0 3px #ea4e41 inset; 
-  
+  background-image: url("../public/img/done.png");
+  background-size: cover;
+
 }
+
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
-/* .wrapper{
-  position: relativel; 
-  min-height: 100%;
-  padding-bottom: 10vh;
-  background-color: #ffeffc;
-} */
-.footer{
+.footer {
   width: 100%;
   height: 100px;
-  /* background-color: #ffeffc; */
-  /* height: 10vh; */
-  /* display: block; */
   position: absolute;
-  /* transform : translateY(-100%); */
   background-color: #ffeffc;
   bottom: 0;
   left: 0;
 }
-
